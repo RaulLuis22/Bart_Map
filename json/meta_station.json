@@ -1,0 +1,74 @@
+{
+      "Station A": {
+        "en_wiki_cache": "19/04/2020",
+        "en_wiki_sources": {
+          "Wikipedia (EN)": "https://en.wikipedia.org/wiki/Franz-Neumann-Platz_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Own Work": ""
+        }
+      },
+      "Station B": {
+        "en_wiki_cache": "13/01/2021",
+        "en_wiki_sources": {
+          "Wikipedia (EN)":
+            "https://en.wikipedia.org/wiki/Rotes_Rathaus_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Mario Sixtus (CC BY-NC-SA 2.0)":
+            "https://www.flickr.com/photos/sixtus/50684422342/"
+        }
+      },
+      "Station C": {
+        "en_wiki_cache": "13/01/2021",
+        "en_wiki_sources": {
+          "Wikipedia (EN)":
+            "https://en.wikipedia.org/wiki/Rotes_Rathaus_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Mario Sixtus (CC BY-NC-SA 2.0)":
+            "https://www.flickr.com/photos/sixtus/50684422342/"
+        }
+      },
+      "Milpitas": {
+        "en_wiki_cache": "13/01/2021",
+        "en_wiki_sources": {
+          "Wikipedia (EN)":
+            "https://en.wikipedia.org/wiki/Rotes_Rathaus_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Mario Sixtus (CC BY-NC-SA 2.0)":
+            "https://www.flickr.com/photos/sixtus/50684422342/"
+        }
+      },
+      "Berryessa/North San Jose": {
+        "en_wiki_cache": "13/01/2021",
+        "en_wiki_sources": {
+          "Wikipedia (EN)":
+            "https://en.wikipedia.org/wiki/Rotes_Rathaus_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Mario Sixtus (CC BY-NC-SA 2.0)":
+            "https://www.flickr.com/photos/sixtus/50684422342/"
+        }
+      },
+      "Civic Center/UN Plaza": {
+        "en_wiki_cache": "13/01/2021",
+        "en_wiki_sources": {
+          "Wikipedia (EN)":
+            "https://en.wikipedia.org/wiki/Rotes_Rathaus_(Berlin_U-Bahn)"
+        },
+        "image_cache": true,
+        "image_source": {
+          "Mario Sixtus (CC BY-NC-SA 2.0)":
+            "https://www.flickr.com/photos/sixtus/50684422342/"
+        }
+      }
+      
+  }
+  

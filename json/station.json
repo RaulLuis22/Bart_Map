@@ -1,0 +1,609 @@
+{
+  "stations":{
+      "Fremont": {
+          "name": "Fremont",
+          "label": "Fremont",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/frmt\">http://www.bart.gov/stations/frmt</a>",
+          "position": {
+            "lat": -121.976626395132,
+            "lon": 37.5574744273506
+          }
+        },
+      "Milpitas": {
+          "name": "Milpitas",
+          "label": "Milpitas",
+          "link": "<a target=\"_blank\" href=\"https://www.bart.gov/stations\">https://www.bart.gov/stations</a>",
+          "position": {
+              "lat": -121.89109408408,
+            "lon": 37.4102823599611
+            
+          }
+        },
+        "Berryessa/North San Jose": {
+          "name": "Berryessa/North San Jose",
+          "label": "Berryessa/North San Jose",
+          "link": "<a target=\"_blank\" href=\"https://www.bart.gov/stations\">https://www.bart.gov/stations</a>",
+          "position": {
+              "lat": -121.87469384313,
+            "lon": 37.3684782891037
+            
+          }
+        },
+        "Union City": {
+          "name": "Union City",
+          "label": "Union City",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/ucty\">http://www.bart.gov/stations/ucty</a>",
+          "position": {
+              "lat": -122.017256014002,
+            "lon": 37.5907343164698
+            
+          }
+        },
+        "Warm Springs/South Fremont": {
+          "name": "Warm Springs/South Fremont",
+          "label": "Warm Springs/South Fremont",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/warm\">http://www.bart.gov/stations/warm</a>",
+          "position": {
+              "lat": -121.939433028157,
+            "lon": 37.5023349701208
+            
+          }
+        },
+        "Hayward": {
+          "id": 11,
+          "name": "Hayward",
+          "label": "Hayward",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/hayw\">http://www.bart.gov/stations/hayw</a>",
+          "position": {
+            "lat": -122.086959953277,
+            "lon": 37.6696973835548
+          }
+        },
+        "South Hayward": {
+          "id": 18,
+          "name": "South Hayward",
+          "label": "South Hayward",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/shay\">http://www.bart.gov/stations/shay</a>",
+          "position": {
+            "lat": -122.057197308517,
+            "lon": 37.6343505701438
+          }
+        },
+        "Bay Fair": {
+          "id": 15,
+          "name": "Bay Fair",
+          "label": "Bay Fair",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/bayf\">http://www.bart.gov/stations/bayf</a>",
+          "position": {
+            "lat": -122.126459629389,
+            "lon": 37.6969162033546
+          }
+        },
+        "San Leandro": {
+          "id": 23,
+          "name": "San Leandro",
+          "label": "San Leandro",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/sanl\">http://www.bart.gov/stations/sanl</a>",
+          "position": {
+            "lat": -122.160750696888,
+            "lon": 37.7217854135425
+          }
+        },
+        "Coliseum/Airport Connector": {
+          "id": 49,
+          "name": "Coliseum/Airport Connector",
+          "label": "Coliseum/Airport Connector",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/oakl\">http://www.bart.gov/stations/oakl</a>",
+          "position": {
+            "lat": -122.196183018337,
+            "lon": 37.7523049650559
+          }
+        },
+        "Fruitvale": {
+          "id": 46,
+          "name": "Fruitvale",
+          "label": "Fruitvale",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/ftvl\">http://www.bart.gov/stations/ftvl</a>",
+          "position": {
+            "lat": -122.224179418194,
+            "lon": 37.7748944568355
+          }
+        },
+        "Lake Merritt": {
+          "id": 32,
+          "name": "Lake Merritt",
+          "label": "Lake Merritt",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/lake\">http://www.bart.gov/stations/lake</a>",
+          "position": {
+            "lat": -122.26522683402,
+            "lon": 37.7972929525564
+          }
+        },
+        "West Oakland": {
+          "id": 22,
+          "name": "West Oakland",
+          "label": "West Oakland",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/woak\">http://www.bart.gov/stations/woak</a>",
+          "position": {
+            "lat": -122.295160827597,
+            "lon": 37.8048870944074
+          }
+        },
+        "Embarcadero": {
+          "id": 39,
+          "name": "Embarcadero",
+          "label": "Embarcadero",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/embr\">http://www.bart.gov/stations/embr</a>",
+          "position": {
+            "lat": -122.39690099434,
+            "lon": 37.7928539137256
+          }
+        },
+        "Montgomery St": {
+          "id": 30,
+          "name": "Montgomery St",
+          "label": "Montgomery St",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/mont\">http://www.bart.gov/stations/mont</a>",
+          "position": {
+            "lat": -122.401174710598,
+            "lon": 37.7894495203929
+          }
+        },
+        "Powell St": {
+          "id": 35,
+          "name": "Powell St",
+          "label": "Powell St",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/powl\">http://www.bart.gov/stations/powl</a>",
+          "position": {
+            "lat": -122.407017658827,
+            "lon": 37.7848708966278
+          }
+        },
+        "Civic Center/UN Plaza": {
+          "id": 3,
+          "name": "Civic Center/UN Plaza",
+          "label": "Civic Center/UN Plaza",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/civc\">http://www.bart.gov/stations/civc</a>",
+          "position": {
+            "lat": -122.413936415216,
+            "lon": 37.7793938607629
+          }
+        },
+        "16th St/Mission": {
+          "id": 24,
+          "name": "16th St/Mission",
+          "label": "16th St/Mission",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/16th\">http://www.bart.gov/stations/16th</a>",
+          "position": {
+            "lat": -122.41970814351,
+            "lon": 37.7650542393208
+          }
+        },
+        "24th St/Mission": {
+          "id": 25,
+          "name": "24th St/Mission",
+          "label": "24th St/Mission",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/24th\">http://www.bart.gov/stations/24th</a>",
+          "position": {
+            "lat": -122.418467876047,
+            "lon": 37.7522314516557
+          }
+        },
+        "Glen Park": {
+          "id": 10,
+          "name": "Glen Park",
+          "label": "Glen Park",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/glen\">http://www.bart.gov/stations/glen</a>",
+          "position": {
+            "lat": -122.433790088383,
+            "lon": 37.7331123945196
+          }
+        },
+        "Balboa Park": {
+          "id": 16,
+          "name": "Balboa Park",
+          "label": "Balboa Park",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/balb\">http://www.bart.gov/stations/balb</a>",
+          "position": {
+            "lat": -122.447587357492,
+            "lon": 37.7213505880275
+          }
+        },
+        "Castro Valley": {
+          "id": 41,
+          "name": "Castro Valley",
+          "label": "Castro Valley",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/cast\">http://www.bart.gov/stations/cast</a>",
+          "position": {
+            "lat": -122.07560669317,
+            "lon": 37.6907479760973
+          }
+        },
+        "West Dublin/Pleasanton": {
+          "id": 28,
+          "name": "West Dublin/Pleasanton",
+          "label": "West Dublin/Pleasanton",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/wdub\">http://www.bart.gov/stations/wdub</a>",
+          "position": {
+            "lat": -121.928077098302,
+            "lon": 37.6997506992207
+          }
+        },
+        "Dublin/Pleasanton": {
+          "id": 31,
+          "name": "Dublin/Pleasanton",
+          "label": "Dublin/Pleasanton",
+          "link": "<a target=\"_blank\" href=\"http://www.bart.gov/stations/dubl\">http://www.bart.gov/stations/dubl</a>",
+          "position": {
+            "lat": -121.899073968031,
+            "lon": 37.7016817848902
+          }
+        }
+        
+  },
+  "lines": [
+      {
+          "name": "G",
+          "color": "#008200",
+          "label": "G",
+          "shiftCoords": [
+            0,
+            0
+          ],
+          "nodes": [
+            { "coords": [0, 10],
+              "name": "Berryessa/North San Jose",
+              "label": "Berryessa/North San Jose",
+              "labelPos": "E",
+              "labelBold": true,
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2,
+              "stationSymbol": "double",
+              "stationSymbolShiftx": 3,
+              "lineLabelPos": "E"
+            },
+            { "coords": [0, 20],
+              "name": "Milpitas",
+              "label": "Milpitas",
+              "labelPos": "E"
+            },
+            { "coords": [0, 30],
+              "name": "Warm Springs/South Fremont",
+              "label": "Warm Springs/South Fremont",
+              "labelPos": "E"
+            },
+            {"coords": [0,35]},
+            { "coords": [-10, 45],
+              "name": "Fremont",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-20, 55],
+              "name": "Union City",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-30, 65],
+              "name": "South Hayward",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-40, 75],
+              "name": "Hayward",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-55, 90],
+              "name": "Bay Fair",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-60, 95],
+              "name": "San Leandro",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            {
+              "coords": [-65, 100],
+              "name": "Coliseum/Airport Connector",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-70, 105],
+              "name": "Fruitvale",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-75, 110],
+              "name": "Lake Merritt",
+              "labelPos": "E",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            { "coords": [-80, 115]},
+            { "coords": [-90, 115],
+              "name": "West Oakland",
+              "labelPos": "S",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            {"coords":[-105,115]},
+            {"coords": [-110, 110],
+            "name": "Embarcadero",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-115, 105],
+            "name": "Montgomery St",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-120, 100],
+            "name": "Powell St",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-125, 95],
+            "name": "Civic Center/UN Plaza",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-130,90]},
+           {"coords":[-130,85],
+           "name": "16th St/Mission",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-130,80],
+           "name": "24th St/Mission",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-130,75],
+           "name": "Glen Park",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-130,70],
+           "name": "Balboa Park",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },{"coords":[-130,65]},
+          {"coords":[-125,60]}
+
+          ]
+        },
+        {
+          "name": "O",
+          "color": "orange",
+          "label": "O",
+          "shiftCoords": [
+            2,
+            1
+          ],
+          "nodes": [
+              { "coords": [0, 10],
+                "name": "Berryessa/North San Jose",
+                "label": "Berryessa/North San Jose",
+                "labelPos": "E",
+                "labelBold": true,
+                "stationSymbol": "triple",
+                "lineLabelPos": "E"
+              },
+              { "coords": [0, 20],
+                "name": "Milpitas",
+                "label": "Milpitas",
+                "labelPos": "E"
+              },
+              { "coords": [0, 30],
+                "name": "Warm Springs/South Fremont",
+                "label": "Warm Springs/South Fremont",
+                "labelPos": "E"
+              },
+              {"coords": [0,35]},
+              { "coords": [-10, 45],
+                "name": "Fremont",
+                "labelPos": "E",
+                "lineLabelShiftX": 10,
+                "lineLabelShiftY": 10
+              },
+              { "coords": [-20, 55],
+                "name": "Union City",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-30, 65],
+                "name": "South Hayward",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-40, 75],
+                "name": "Hayward",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-55, 90],
+                "name": "Bay Fair",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-60, 95],
+                "name": "San Leandro",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              {
+                "coords": [-65, 100],
+                "name": "Coliseum/Airport Connector",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-70, 105],
+                "name": "Fruitvale",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-75, 110],
+                "name": "Lake Merritt",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-80, 115]}
+          ]
+      },
+      {
+          "name": "B",
+          "color": "blue",
+          "label": "B",
+          "shiftCoords": [
+            4,
+            2
+          ],
+           "nodes":[
+              { "coords": [5, 85],
+                "name": "Dublin/Pleasanton",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-10, 85],
+                "name": "West Dublin/Pleasanton",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              {
+                "coords": [-30, 85],
+                "name": "Castro Valley",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              {"coords":[-50,85]},
+              { "coords": [-55, 90],
+                "name": "Bay Fair",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-60, 95],
+                "name": "San Leandro",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              {
+                "coords": [-65, 100],
+                "name": "Coliseum/Airport Connector",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-70, 105],
+                "name": "Fruitvale",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-75, 110],
+                "name": "Lake Merritt",
+                "labelPos": "E",
+                "lineLabelShiftX": -4.2,
+                "lineLabelShiftY": -3.2
+              },
+              { "coords": [-80, 115]},
+              { "coords": [-90, 115],
+              "name": "West Oakland",
+              "labelPos": "S",
+              "lineLabelShiftX": -4.2,
+              "lineLabelShiftY": -3.2
+            },
+            {"coords":[-108,115]},
+            {"coords": [-113, 110],
+            "name": "Embarcadero",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-120, 103],
+            "name": "Montgomery St",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-128, 95],
+            "name": "Powell St",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {
+              "coords": [-130, 92]
+           },
+           {"coords": [-131, 92],
+            "name": "Civic Center/UN Plaza",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+           },
+           {"coords": [-134,89]},
+           {"coords":[-134,85],
+           "name": "16th St/Mission",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-134,80],
+           "name": "24th St/Mission",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-134,75],
+           "name": "Glen Park",
+            "labelPos": "E",
+            "lineLabelShiftX": -4.2,
+            "lineLabelShiftY": -3.2
+          },
+          {"coords":[-134,70],
+           "name": "Balboa Park",
+            "labelPos": "E",
+            "lineLabelShiftX": 4.2,
+            "lineLabelShiftY": 3.2
+            
+          },{"coords":[-134,63]},
+          {"coords":[-129,58]}
+          
+          ]
+      }
+
+        
+    ]
+  
+}
+
+

@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="author" content="https://skamsie.ro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="description" content="About page of https://ubahn-map.com">
+
+    <title>Information</title>
+  </head>
+
+  <body id="info-page">
+    <div id="info-page-container">
+      <a href="index.html">back</a>
+
+      <h2 id=settings>Settings</h2>
+
+      <div class="checkbox">
+        <input type="checkbox" id="show-sbahn">
+        <label for="show-sbahn">Show Sbahn Connection</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="show-wall">
+        <label for="show-wall">Show The Berlin Wall</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="grayscale-photos">
+        <label for="grayscale-photos">Grayscale Images</label>
+      </div>
+
+      <hr />
+
+      <h2 id="about">About</h2>
+      <h3>the project</h3>
+      <p>
+        This website is an interactive representation of the Berlin U-Bahn
+        system inspired by
+        <a href="https://raw.githubusercontent.com/skamsie/berlin-subway/master/U-Bahn_Berlin.png">this map</a>
+        from 2016, but updated to the 2020 namings and routes. The most notable
+        difference is that the Eastern terminus of U3 is now at Warschauer Straße.
+        A couple of stations are also called differently.
+      </p>
+
+      <p>
+        The map is movable by dragging and scalable by zooming. Clicking on a
+        station or its label brings up an image and information about the
+        station. The information is taken from the English or German Wikipedia
+        page. At the bottom of each article there is a link to the source.
+        Since the pages are cached, the information might not be in sync with
+        the corresponding Wikipedia article.
+      </p>
+
+      <p>
+        The sidebar that displays the station information is resizable by
+        dragging horizontally, but only on desktop. Once the sidebar is open,
+        the 'previous' and 'next' links (or the ← and → keys on the keyboard)
+        can be used for moving between stations.
+      </p>
+
+      <p>For the implementation details, you can check out the project on
+        <a href="https://github.com/skamsie/berlin-ubahn-map">Github</a>.
+      </p>
+
+      <a href="png/Berlin-Ubahn-Map-May-2020.png" title="Berlin U-Bahn Map">
+        Download the map as png (May 2020)
+      </a>
+
+      <h3>the photos</h3>
+      <p>
+        In the begging of the project I was only using the default thumbnails
+        returned by the Wikipedia API. Some of the photos are old and do not
+        reflect the current condition or design of the stations (plus I became
+        more and more interested in the U-Bahn due to its rich history),
+        hence I decided to go photograph them myself.
+      </p>
+
+      <p>
+        In April 2020 I have photographed 168 out of the 173 stations with an
+        iPhone X. For the rest of the stations, the images are taken from
+        Wikimedia Commons and are licensed under the Creative Commons
+        <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">Attribution-Share
+        Alike 2.0 Generic</a> license (unless stated otherwise).
+      </p>
+
+      <h3>the u-bahn</h3>
+
+      <p>
+        The Berlin U-Bahn ([uː.baːn]; short for Untergrundbahn, "underground
+        railway") is a rapid transit railway in Berlin, the capital city of
+        Germany, and a major part of the city's public transport system.
+        Together with the S-Bahn, a network of suburban train lines, and a
+        tram network that operates mostly in the eastern parts of the city,
+        it serves as the main means of transport in the capital.
+      </p>
+
+      <p>
+        Opened in 1902, the U-Bahn serves 173 stations spread across ten lines,
+        with a total track length of 151.7 kilometres (94.3 mi), about 80% of
+        which is underground. Trains run every two to five minutes during peak
+        hours, every five minutes for the rest of the day and every ten minutes
+        in the evening. Over the course of a year, U-Bahn trains travel 132
+        million km (82.0 million mi), and carry over 400 million passengers. In
+        2017, 553.1 million passengers rode the U-Bahn. The entire system is
+        maintained and operated by the Berliner Verkehrsbetriebe, commonly
+        known as the BVG.
+        (<a href="https://en.wikipedia.org/wiki/Berlin_U-Bahn">Source</a>)
+      </p>
+
+      <h3>me</h3>
+
+      <p>
+        I am a Romanian web developer living and working in Berlin,
+        Germany. For more information visit the links below.
+      </p>
+
+      <a href="https://skamsie.ro">skamsie.ro</a>
+      <br /><a href="https://github.com/skamsie">github/skamsie</a>
+      <br /><a href="https://instagram.com/skamsie">instagram/skamsie</a>
+
+      <h3>updates</h3>
+
+      <p>13.01.2021 - Update U5 line and remove U55</p>
+    </div>
+
+    <div class="footer-container footer">
+      <div id=footer-left>
+        <a href="https://skamsie.ro">© 2020 skamsie</a>
+        <span>|</span>
+      </div>
+      <div id=footer-center><a href="index.html">Berlin U-Bahn Map</a></div>
+      <div id=footer-right>
+        <span>|&nbsp;</span>
+        <a href="information.html">information</a>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/js.cookie-2.2.1.min.js"></script>
+    <script>
+      function getCheckBoxSetting(e) {
+        return Cookies.get(e.attr('id')) === "true" ? true : false
+      }
+      $('input[type=checkbox]').each(function() {
+        $(this).prop('checked', getCheckBoxSetting($(this)))
+      })
+
+      $(document).ready(function() {
+
+        $('input[type="checkbox"]').click( function() {
+          if($(this).is(':checked')){
+            Cookies.set($(this).attr('id'), true, { expires: 30 })
+          }
+          else if($(this).is(':not(:checked)')){
+            Cookies.set($(this).attr('id'), false, { expires: 30 })
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
